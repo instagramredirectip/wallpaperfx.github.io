@@ -1,6 +1,6 @@
 // src/app/page.tsx
 // This component now runs on the Server (for SEO and fast data fetching)
-
+export const revalidate = 60;
 import { supabase } from '@/src/lib/supabase';
 import { Wallpaper } from '@/src/types/index';
 import InteractiveButtons from '@/src/components/InteractiveButtons';
